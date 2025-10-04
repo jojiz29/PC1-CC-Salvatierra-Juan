@@ -5,10 +5,10 @@ import numpy as np
 import psycopg2
 
 
-USER = st.secrets["postgres"]["USER"]
-PASSWORD = st.secrets["postgres"]["PASSWORD"]
-HOST = st.secrets["postgres"]["HOST"]
-PORT = st.secrets["postgres"]["PORT"]
+USER = st.secrets["postgres.uuyuojpimpjaittgbhcx"]["USER"]
+PASSWORD = st.secrets["juanalonso/2904"]["PASSWORD"]
+HOST = st.secrets["aws-1-us-east-2.pooler.supabase.com"]["HOST"]
+PORT = st.secrets["5432"]["PORT"]
 DBNAME = st.secrets["postgres"]["DBNAME"]
 
 # Configuración de la página
